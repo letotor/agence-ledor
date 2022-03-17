@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&family=Montserrat:wght@300;400;500;700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&family=Montserrat:wght@300;400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +8,8 @@
 body{
     /* background: #000; */
     color:white;
-    font-family: "Montserrat", sans-serif;
+  
+font-family: 'Montserrat', sans-serif;
     /* padding-left: 5px;
     padding-right: 5px; */
 }
@@ -58,7 +58,10 @@ text-decoration: none;
 
 
 
-
+strong{
+    font-weight: 400;    
+    color: #f1c40f;
+}
 
 /** HEADER ET SECTION HERO **/
 .vp-container{
@@ -78,27 +81,33 @@ header{
     background:#333;
     flex: 0  0 auto;
     padding: 1rem 2rem;
+    line-height: 3rem;
 }
 .vp-logo{
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    font-family: 'Liu Jian Mao Cao', cursive;
-    font-size: 1.8rem;
-    margin-bottom: 0;
+    font-family: 'Long Cang', cursive;
+    font-size: 3rem;
+
+    margin-bottom: 1rem;
    
 }
 
 .vp-logo i{
-    font-size: 2.8rem;
+    font-size: 3rem;
     color: #f1c40f;
     margin-right: 0.8rem;
+
+ 
    
 }
 
 .vp-logo a{ 
     display: inline-block;
+    font-size: 3.8rem;
+    font-weight: 300;
     color: white;
 }
 
@@ -111,18 +120,44 @@ header  ul{
 }
 
 header ul li {
-    padding:1rem
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: 1.8rem;
+    
 }
+
 header ul li a:hover {
     color:#f1c40f
 }
 
 .vp{
     border:1px solid yellow;
-    flex : auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex : auto ;
+    background: url('../images/image.png') center center/cover no-repeat;
+}
+
+.vp-content{
+    max-width:800px;
+    text-align: center;
+    color:white;
     /* display: flex;
-    flex-direction: row; */
-    /* align-content: stretch; */
-       background-image: url('https://unsplash.com/photos/J8KM__6WcDw') center center/cover no-repeat;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center; */
+}
+
+.vp-content h1 {
+    font-size:3.0rem;
+    margin-bottom: 2rem;
+}
+.vp-content p{
+    font-size : 1.8rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height:2.4rem;
+
 }
 
