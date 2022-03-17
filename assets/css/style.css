@@ -80,3 +80,47 @@
   .vp {
     flex: auto;
   }
+
+strong {
+    color: #f1c40f;
+    font-weight: 400;
+  }
+
+  header {
+    padding: 1rem 2rem;
+    background: #333;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    line-height: 1.8rem;
+  }
+ 
+  .vp {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(https://dyma-images.s3.fr-par.scw.cloud/html-css/projects/project2/frame.jpg)
+      center center/cover;
+  }
+  
+  .vp-content {
+    max-width: 800px;
+    text-align: center;
+    color: white;
+  }
+  
+  .vp-content h1 {
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .vp-content p {
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 2rem;
+  }
+
+  
