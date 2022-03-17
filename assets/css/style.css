@@ -131,12 +131,12 @@ header ul li a:hover {
 }
 
 .vp{
-    border:1px solid yellow;
+    /* border:1px solid yellow; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex : auto ;
-    background: url('../images/image.png') center center/cover no-repeat;
+    background: url('../images/frame.jpg') center center/cover no-repeat;
 }
 
 .vp-content{
