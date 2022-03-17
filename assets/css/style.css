@@ -7,9 +7,11 @@
 }
 
 body{
-    background: #000;
+    /* background: #000; */
     color:white;
     font-family: "Montserrat", sans-serif;
+    /* padding-left: 5px;
+    padding-right: 5px; */
 }
 
 p{
@@ -20,13 +22,107 @@ h1,h2,h3,h4{
     margin-bottom: 1rem;
 }
 
+li{
+    text-decoration: none;
+ 
+   
+}
+ul{
+    list-style:none;
+  
+}
 a{
-color:#3333;
+color:rgb(255, 255, 255);
 text-decoration: none;
-
 }
 
-.logo{
+a:visited{
+text-decoration: none;
+}
 
+.p-5{
+    padding: 5px;
+}
+.p-10{
+    padding: 10px;
+}
+.pd-5{
+    padding-left: 5px;
+}
+.pr-5{
+    padding-right: 5px;
+}
+.m-0{
+    margin: 0;
+}
+
+
+
+
+
+/** HEADER ET SECTION HERO **/
+.vp-container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: start;
+    align-items: stretch;
+    min-height:100vh;
+    background: #f1c40f;
+   
+}
+header{
+    display: flex;
+    flex-flow:  row nowrap;
+    justify-content:space-between;
+    align-items: center;
+    background:#333;
+    flex: 0  0 auto;
+    padding: 1rem 2rem;
+}
+.vp-logo{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
     font-family: 'Liu Jian Mao Cao', cursive;
+    font-size: 1.8rem;
+    margin-bottom: 0;
+   
 }
+
+.vp-logo i{
+    font-size: 2.8rem;
+    color: #f1c40f;
+    margin-right: 0.8rem;
+   
+}
+
+.vp-logo a{ 
+    display: inline-block;
+    color: white;
+}
+
+header  ul{
+    display: flex;
+    flex-flow: row wrap;
+    list-style:none;
+   
+    /* align-items: center; */
+}
+
+header ul li {
+    padding:1rem
+}
+header ul li a:hover {
+    color:#f1c40f
+}
+
+.vp{
+    border:1px solid yellow;
+    flex : auto;
+    /* display: flex;
+    flex-direction: row; */
+    /* align-content: stretch; */
+       background-image: url('https://unsplash.com/photos/J8KM__6WcDw') center center/cover no-repeat;
+}
+
