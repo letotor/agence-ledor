@@ -123,4 +123,62 @@ strong {
     line-height: 2rem;
   }
 
+/* ... */
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #eee;
+    color: #333;
+  }
+  /* ... */
+  ul {
+    list-style: none;
+  }
+  /* ... */
+  /* class  */
+  .container {
+    display: block;
+    max-width: 1200px;
+    margin: auto;
+  }
   
+  .title {
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  /* ... */
+  /* Offer */
+  
+  .offer {
+    padding: 10rem 1rem;
+  }
+  
+  .offer-list {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+  
+  .offer-elem {
+    border: 1px solid #ddd;
+    background: white;
+    margin: 1rem;
+    flex: 1;
+  }
+  
+  .offer-elem-img {
+    width: 100%;
+  }
+  
+  .offer-elem-text {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .offer-separator {
+    margin: 1rem auto;
+    height: 2px;
+    width: 50px;
+    background: #333;
+  }
