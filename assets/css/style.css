@@ -56,7 +56,20 @@ text-decoration: none;
     margin: 0;
 }
 
+/** classe **/
+.container{
+    display:block;
+    max-width: 1200px;
+    margin: auto;
+    border: 1px solid  #f1c40f;
+}
 
+.title{
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 3;
+    color:#bbb;
+}
 
 strong{
     font-weight: 400;    
@@ -122,7 +135,7 @@ header  ul{
 header ul li {
     padding-right: 1rem;
     padding-left: 1rem;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     
 }
 
@@ -161,3 +174,43 @@ header ul li a:hover {
 
 }
 
+/*OFFER*/
+.offer{
+    background-color: #eee;
+    padding:10rem 1rem;
+    min-width: 500px;
+
+}
+
+
+.offer p {
+    color: rgb(26, 25, 25);
+    font-size: 1.5rem;
+}
+
+
+.offer-list{
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 2rem;
+    /* padding-top: 0; */
+}
+
+.offer-elem{
+    background: rgb(212, 204, 79);
+    border : 1px solid #ddd;
+    width: 300px;
+   
+}
+
+
+.offer-elem-image{
+    width: 100%;
+    overflow: hidden;
+    image-rendering: crisp-edges;
+}
+
+
+
+/**/
