@@ -11,20 +11,37 @@ body{
 /** HEADER ET SECTION HERO **/
 header {
     flex-direction: column;
+
 }
+
+.vp-logo{
+    font-size: 2rem;
+    align-self: start;
+}
+
+.vp-logo i {
+font-size: 2rem;
+
+
+}
+.vp-logo a{
+    font-size: 3rem;
+}
+
 
 header ul {
     justify-content: center;
     text-align: center;
+   
 }
 
 header ul li{
    
-    margin-top: 1rem;
-    padding:0.5rem;
+    /* margin-top: 1rem;
+    padding:0.5rem; */
     border-bottom: 1px dotted #ddd;
     width:100%;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .vp-content h1 {
@@ -55,6 +72,7 @@ OFFER
 /*team*/
 .team {
     flex-direction: column-reverse;
+
 }
 
 .team-content-img{
@@ -77,4 +95,21 @@ OFFER
 
 .testimonials-elem-profil{
     flex-direction: column;
+    align-items: center;
+}
+
+.testimonials-elem-profil img{
+    margin-bottom: 1.5rem;
+
+}
+
+/***FORM
+*
+*/
+.contact-form button {
+    margin-top: 2rem;
+}
+
+footer {
+    padding: 3rem 1rem;
 }
