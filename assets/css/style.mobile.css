@@ -1,4 +1,80 @@
 body{
-    background: rgb(20, 118, 163);
-    color:blue;
+    /* background: rgb(20, 118, 163);
+    color:blue; */
+}
+
+/*CLASS*/
+.title {
+   text-align: center;
+}
+
+/** HEADER ET SECTION HERO **/
+header {
+    flex-direction: column;
+}
+
+header ul {
+    justify-content: center;
+    text-align: center;
+}
+
+header ul li{
+   
+    margin-top: 1rem;
+    padding:0.5rem;
+    border-bottom: 1px dotted #ddd;
+    width:100%;
+    font-size: 1.3rem;
+}
+
+.vp-content h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.vp-content p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/****
+OFFER
+*/
+.offer {
+    padding: 4rem 1rem;
+    /* min-width: 500px; */
+    text-align: center;
+    min-width:auto;
+}
+
+.offer-list {
+    flex-direction: column;
+    padding:  0;
+}
+
+/*team*/
+.team {
+    flex-direction: column-reverse;
+}
+
+.team-content-img{
+    min-height: 300px;
+}
+
+.team-content-text {
+    padding:4rem 2rem;
+}
+
+/**
+* SEction testimonials
+**/
+
+
+.testimonials-elem,.testimonials-elem:nth-child(2n) {
+    flex-flow: column;
+}
+
+
+.testimonials-elem-profil{
+    flex-direction: column;
 }
